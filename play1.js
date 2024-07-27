@@ -50,5 +50,7 @@ console.log(price); // print 350
 
 // const Variables
 // Limited access to its block & CANNOT BE CHANGED
-const myName = 'Karim';
-console.log(myName);
+const entree = 'Enchiladas'; // assign value of const
+console.log (entree); // print Enchiladas
+entree = 'Tacos'; // trying to re-assign value
+console.log (entree); // print ERROR
