@@ -36,6 +36,7 @@ console.log('   Hello   '.trim()); // print Hello without whitespaces
 
 // Built-in Objects with their own methods
 console.log(Math.random() * 100); // prints a decimal number
+let randomNumber = Math.floor(Math.random() * 7); // random floor number up to 7
 console.log(Math.ceil(43.8)); // prints a number greater or equal to 43.8
 console.log(Number.isInteger(2017)); // prints true or false if the number is integer
 console.log(Math.floor(Math.random() * 100)); // prints a floor number
