@@ -1,1 +1,1 @@
-Javascript for Beginners - Cheatsheet
+Javascript for Beginners - Cheatsheets
