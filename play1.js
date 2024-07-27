@@ -21,3 +21,8 @@ console.log('My name is' + ' ' + 'Karim'); // include a space
 // Properties - (.) operator - (length) property to tell letters length
 console.log('Hello'.length); // prints 5
 console.log('Teaching the world how to code'.length);  // prints 30
+
+// Methods - (.) operator - (toUpperCase) method - () 
+console.log('Hello World!'.toUppercase()); // print HELLO WORLD!
+console.log('My name is Karim'.startswith('H')); // print true as it starts with H
+console.log('   Hello   '.trim()); // print Hello without whitespaces
