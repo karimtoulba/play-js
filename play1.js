@@ -34,3 +34,8 @@ console.log(Math.random() * 100); // prints a decimal number
 console.log(Math.ceil(43.8)); // prints a number greater or equal to 43.8
 console.log(Number.isInteger(2017)); // prints true or false if the number is integer
 console.log(Math.floor(Math.random() * 100)); // prints a floor number
+
+// Variables
+var myBirth = 1990;
+var myName = 'Karim Toulba';
+console.log('My name is' + ' ' + myName); // prints my name stored in variable
