@@ -70,3 +70,9 @@ switch (athleteFinalPosition) {
   break;
 }
 
+// Functions
+function getReminder() {
+  console.log('Hello World!');
+}
+getReminder(); // Prints Hello World!
+
