@@ -15,11 +15,19 @@ if (sale) {
 
 // Comparison Operators: >, <, <=, >=, ===, !==
 // Logical Operators: AND &&, OR ||, not !
-
 let mood = 'sleepy';
 let tirednessLevel = 6;
 if (!mood === 'sleepy' && !tirednessLevel > 5) {
   console.log('time to sleep');
 } else {
   console.log('not time to go to bed');
+}
+
+// True value: "String", true, 
+// False value: Empty string " ", false, 0, undefined
+let numofApples = 0
+if (numofApples) {
+  console.log('Time to eat');
+} else {
+  console.log('Not time to eat');
 }
