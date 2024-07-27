@@ -54,3 +54,13 @@ const entree = 'Enchiladas'; // assign value of const
 console.log (entree); // print Enchiladas
 entree = 'Tacos'; // trying to re-assign value
 console.log (entree); // print ERROR
+
+// Mathematical Assignment Operators -->> VAR = VAR + 5
+let levelUp = 10;
+levelUp += 5; // print 15
+let powerLevel = 200;
+powerLevel -= 100; // print 100
+let multiplyMe = 32;
+multiplyMe *= 11; // print 352
+let quarterMe = 1152;
+quarterMe /= 4; // print 288
