@@ -43,7 +43,7 @@ console.log('My name is' + ' ' + myName); // prints my name stored in variable
 
 // let Variables
 // Limited access to it's block
-let price; // undefined
-console.log(price);
-price = 350; 
+let price; // assign value of undefined
+console.log(price); // print undefined
+let price = 350; // assign value of 350
 console.log(price); // print 350
