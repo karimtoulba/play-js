@@ -58,8 +58,10 @@ console.log (entree); // print ERROR
 // Mathematical Assignment Operators -->> VAR = VAR + 5
 let levelUp = 10;
 levelUp += 5; // print 15
+levelUp++; // Increases 1, prints 11
 let powerLevel = 200;
 powerLevel -= 100; // print 100
+powerLevel--; // Decreases 1, prints 99
 let multiplyMe = 32;
 multiplyMe *= 11; // print 352
 let quarterMe = 1152;
