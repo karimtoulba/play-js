@@ -16,4 +16,8 @@ console.log(11 % 3); // modulus remaining
 // String Concatenation
 console.log('Hello' + 'World'); // Hello World
 console.log('I love' + 'to code'); // I love to code
+console.log('My name is' + ' ' + 'Karim'); // include a space
 
+// Properties - (.) operator - (length) property to tell letters length
+console.log('Hello'.length); // prints 5
+console.log('Teaching the world how to code'.length);  // prints 30
