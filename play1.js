@@ -19,10 +19,12 @@ console.log('I love' + 'to code'); // I love to code
 console.log('My name is' + ' ' + 'Karim'); // include a space
 
 // Properties - (.) operator - (length) property to tell letters length
+// Properties define the characteristic of an object
 console.log('Hello'.length); // prints 5
 console.log('Teaching the world how to code'.length);  // prints 30
 
 // Methods - (.) operator - (toUpperCase) method - () 
+// Method is an action to be applied on an object
 console.log('Hello World!'.toUppercase()); // print HELLO WORLD!
 console.log('My name is Karim'.startswith('H')); // print true as it starts with H
 console.log('   Hello   '.trim()); // print Hello without whitespaces
