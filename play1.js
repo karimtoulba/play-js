@@ -42,8 +42,13 @@ var myName = 'Karim Toulba';
 console.log('My name is' + ' ' + myName); // prints my name stored in variable
 
 // let Variables
-// Limited access to it's block
+// Limited access to it's block & CAN BE CHANGED
 let price; // assign value of undefined
 console.log(price); // print undefined
 let price = 350; // assign value of 350
 console.log(price); // print 350
+
+// const Variables
+// Limited access to its block & CANNOT BE CHANGED
+const myName = 'Karim';
+console.log(myName);
