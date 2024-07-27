@@ -1,0 +1,2 @@
+// Print command
+console.log()
