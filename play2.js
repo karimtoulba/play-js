@@ -34,3 +34,14 @@ if (username) {
 } else {
   console.log(`Hello, ${defaultUsername}`);
 }
+
+// Ternary Operator 1
+let myTime = true;
+myTime ? console.log() // notice: there is no closing ;
+: console.log();
+
+// Ternary Operator 2
+let favoriteAnimal = 'Die Katze';
+favoriteAnimal === 'Die Katze' ? console.log()
+: console.log();
+
