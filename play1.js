@@ -16,8 +16,11 @@ console.log(11 % 3); // modulus remaining
 // String Concatenation
 console.log('Hello' + 'World'); // Hello World
 console.log('I love' + 'to code'); // I love to code
+
+// Concatenation Vs Interpolation
 let myName = 'Karim'; // assign let value
-console.log('My name is' + ' ' + myName); // include a space and print variable
+console.log('My name is' + ' ' + myName); // include a space and print variable (concatenation)
+console.log('My name is ${myName}.'); // print var value inside the string (interpolation) easy to read
 
 // Properties - (.) operator - (length) property to tell letters length
 // Properties define the characteristic of an object
