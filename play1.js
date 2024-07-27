@@ -13,3 +13,7 @@ console.log('Hello World!'); // Print Hello World!
 console.log(3.5 + 34); // plus / minus / multiply / divide
 console.log(11 % 3); // modulus remaining
 
+// String Concatenation
+console.log('Hello' + 'World'); // Hello World
+console.log('I love' + 'to code'); // I love to code
+
