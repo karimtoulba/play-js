@@ -13,8 +13,13 @@ if (sale) {
   console.log('Time to wait for a sale');
 }
 
-// Comparison Operators
-// Less than or equal to: <=
-// Greater than or equal to: >=
-// Is equal to: ===
-// Is not equal to: !==
+// Comparison Operators: >, <, <=, >=, ===, !==
+// Logical Operators: AND &&, OR ||, not !
+
+let mood = 'sleepy';
+let tirednessLevel = 6;
+if (!mood === 'sleepy' && !tirednessLevel > 5) {
+  console.log('time to sleep');
+} else {
+  console.log('not time to go to bed');
+}
