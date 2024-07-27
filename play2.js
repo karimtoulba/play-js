@@ -5,6 +5,8 @@ Date: 27/07/2024
 */
 
 // If Else Statement - True or False Variable
+// True value: "String", true, 
+// False value: Empty string " ", false, 0, undefined
 let sale = true;
 sale = false;
 if (sale) {
@@ -21,13 +23,4 @@ if (!mood === 'sleepy' && !tirednessLevel > 5) {
   console.log('time to sleep');
 } else {
   console.log('not time to go to bed');
-}
-
-// True value: "String", true, 
-// False value: Empty string " ", false, 0, undefined
-let numofApples = 0
-if (numofApples) {
-  console.log('Time to eat');
-} else {
-  console.log('Not time to eat');
 }
