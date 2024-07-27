@@ -28,3 +28,9 @@ console.log('Teaching the world how to code'.length);  // prints 30
 console.log('Hello World!'.toUppercase()); // print HELLO WORLD!
 console.log('My name is Karim'.startswith('H')); // print true as it starts with H
 console.log('   Hello   '.trim()); // print Hello without whitespaces
+
+// Built-in Objects with their own methods
+console.log(Math.random() * 100); // prints a decimal number
+console.log(Math.ceil(43.8)); // prints a number greater or equal to 43.8
+console.log(Number.isInteger(2017)); // prints true or false if the number is integer
+console.log(Math.floor(Math.random() * 100)); // prints a floor number
