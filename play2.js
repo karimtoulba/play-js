@@ -87,4 +87,9 @@ function monitorCost(rows, columns) {
 const totalCost = monitorCost(5, 4)
 console.log(totalCost);
 
-
+// Arrows functions
+const var = function(rows, columns) {} // regular function
+const var = () => {} // function with no parameters
+const var = (rows, columns) => {} // function with two parameters
+const var = rows => {} // function with one parameter
+const var = height => height*height; // instead of return for single line
