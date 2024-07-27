@@ -24,3 +24,13 @@ if (!mood === 'sleepy' && !tirednessLevel > 5) {
 } else {
   console.log('not time to go to bed');
 }
+
+// Truthy and Falsy Assignment
+// VAR = ANOTHER VAR OR VALUE (If ANOTHER VAR is false)
+let username = '';
+let defaultUsername = username || 'Stranger';
+if (username) {
+  console.log(`Hello, ${username}`);
+} else {
+  console.log(`Hello, ${defaultUsername}`);
+}
