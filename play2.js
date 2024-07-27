@@ -71,8 +71,20 @@ switch (athleteFinalPosition) {
 }
 
 // Functions
-function getReminder() {
-  console.log('Hello World!');
+function sayThanks(name = 'Stranger') { // In case there is no value when calling the function
+  console.log(`Thanks for your purchase, ${name}`);
 }
-getReminder(); // Prints Hello World!
+sayThanks('Karim'); // name equals Karim, prints Karim
+sayThanks(); // name equals undefined, prints Stranger
+
+// Functions with Return AND Helper Function in use 
+function monitorCount(rows, columns) {
+  return rows*columns;
+}
+function monitorCost(rows, columns) {
+  return (monitorCount(rows, columns)*200);
+}
+const totalCost = monitorCost(5, 4)
+console.log(totalCost);
+
 
