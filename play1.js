@@ -36,11 +36,13 @@ console.log(Number.isInteger(2017)); // prints true or false if the number is in
 console.log(Math.floor(Math.random() * 100)); // prints a floor number
 
 // var Variables
+// Global access to use the variable
 var myBirth = 1990;
 var myName = 'Karim Toulba';
 console.log('My name is' + ' ' + myName); // prints my name stored in variable
 
 // let Variables
+// Limited access to it's block
 let price; // undefined
 console.log(price);
 price = 350; 
