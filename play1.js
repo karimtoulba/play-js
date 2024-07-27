@@ -71,3 +71,6 @@ let multiplyMe = 32;
 multiplyMe *= 11; // print 352
 let quarterMe = 1152;
 quarterMe /= 4; // print 288
+
+// Javascript ES6 - ECMA Script v6 - Modern Javascript
+// New Features: let, const, classes, arrow functions, parameters with default functions
