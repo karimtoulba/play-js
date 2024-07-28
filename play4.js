@@ -42,3 +42,19 @@ while (counter < 5) {
   counter++;
 }
 
+// Do While 
+let counter = 0;
+do {
+  console.log(''); 
+  counter++;
+} while (counter < 5);
+
+// Break
+for (let i = 0; i <5; i++) {
+  if (i > 2) {
+    break;
+  }
+  console.log(i);
+}
+
+
