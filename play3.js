@@ -22,9 +22,16 @@ logVisibleLightWaves(); // prints Moonlight.
 console.log(lightWaves); // Error as the variable is block scope.
 
 // Array
-let shoppingList = ['Wasser', 'Brot', 'Milch', 'Kase'];
+let myList = ['Wasser', 'Brot', 'Milch', 'Kase'];
 console.log(shoppingList[0]); // prints Wasser
-console.log(shoppingList.length); // prints the array length
+let arrLength = myList.length; // array length
+let arrSlice = myList.slice(1,4); // slice from 1 to 4 index
+let arrIndex = myList.indexOf('Brot'); // prints Index of an item
+myList.pop(); // Remove LAST
+myList.push('one', 'two'); // Add LAST
+myList.unshift('new'); // Add FIRST
+myList.shift(); // Remove FIRST
+
 
 // Changin and Updating Arrays
 
