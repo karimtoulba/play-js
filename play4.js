@@ -19,3 +19,18 @@ let myCities = ['Amsterdam', 'Berlin', 'Oslo'];
 for (let i = 0; i < myCities.length; i++) {
   console.log(myCities[i]);
 }
+
+// Nested For Loop
+let oneNames = ['Ahmed', 'Karim', 'Hussein', 'Tarek'];
+let twoNames = ['Ahmed', 'Ali', 'Ismail', 'Karim'];
+let hiNames = [];
+
+for (let i = 0; i < oneNames.length; i++) {
+  for (let j= 0; j < twoNames.length; j++) {
+    if (oneNames[i] === twoNames[j]) {
+      hiNames.push(oneNames[i]);
+    }
+  }
+}
+
+console.log(hiNames);
