@@ -71,6 +71,7 @@ switch (athleteFinalPosition) {
 }
 
 // Functions (Function Declaration)
+let myName = 'Karim'; // Global scope variable can be used everywhere
 function sayThanks(name = 'Stranger') { // In case there is no value when calling the function
   console.log(`Thanks for your purchase, ${name}`);
 }
