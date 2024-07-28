@@ -92,4 +92,5 @@ const var = function(rows, columns) {} // regular function
 const var = () => {} // function with no parameters
 const var = (rows, columns) => {} // function with two parameters
 const var = rows => {} // function with one parameter
+var(rows); // calling the function
 const var = height => height*height; // instead of return for single line
