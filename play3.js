@@ -25,3 +25,15 @@ console.log(lightWaves); // Error as the variable is block scope.
 let shoppingList = ['Wasser', 'Brot', 'Milch', 'Kase'];
 console.log(shoppingList[0]); // prints Wasser
 console.log(shoppingList[2]); // prints Milch
+
+// Changin and Updating Arrays
+
+// const arrays, we can change items, but can't re-assign the array
+const shoppingList = ['Wasser', 'Brot', 'Milch', 'Kase'];
+shoppingList[0] = 'apfel'; // replace Wasser with Apfel
+shoppingList = ['Orangensaft']; // re-assign the array
+
+// let arrays, we can change items, we can re-assign the array
+let shoppingList = ['Wasser', 'Brot', 'Milch', 'Kase'];
+shoppingList[0] = 'apfel'; // replace Wasser with Apfel
+shoppingList = ['Orangensaft']; // ERROR , CANNOT RE-ASSIGN ARRAY WITH CONST
