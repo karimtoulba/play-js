@@ -24,7 +24,7 @@ console.log(lightWaves); // Error as the variable is block scope.
 // Array
 let shoppingList = ['Wasser', 'Brot', 'Milch', 'Kase'];
 console.log(shoppingList[0]); // prints Wasser
-console.log(shoppingList[2]); // prints Milch
+console.log(shoppingList.length); // prints the array length
 
 // Changin and Updating Arrays
 
