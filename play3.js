@@ -32,9 +32,15 @@ myList.push('one', 'two'); // Add LAST
 myList.unshift('new'); // Add FIRST
 myList.shift(); // Remove FIRST
 
+// Array with Functions
+let myList = ['Wasser', 'Brot', 'Milch', 'Kase'];
+function myChange(arr) {
+  arr.pop();
+}
+myChange(myList);
+console.log(myList);
 
 // Changin and Updating Arrays
-
 // const arrays, we can change items, but can't re-assign the array
 const shoppingList = ['Wasser', 'Brot', 'Milch', 'Kase'];
 shoppingList[0] = 'apfel'; // replace Wasser with Apfel
