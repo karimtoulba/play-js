@@ -50,3 +50,11 @@ shoppingList = ['Orangensaft']; // re-assign the array
 let shoppingList = ['Wasser', 'Brot', 'Milch', 'Kase'];
 shoppingList[0] = 'apfel'; // replace Wasser with Apfel
 shoppingList = ['Orangensaft']; // ERROR , CANNOT RE-ASSIGN ARRAY WITH CONST
+
+// Nested Array
+let numberClusters = [
+  [1, 2], 
+  [3, 4], 
+  [5, 6]
+];
+console.log(numberClusters[1]);
