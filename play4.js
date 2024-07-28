@@ -34,3 +34,11 @@ for (let i = 0; i < oneNames.length; i++) {
 }
 
 console.log(hiNames);
+
+// While Loop
+let counter = 0;
+while (counter < 5) {
+  console.log('');
+  counter++;
+}
+
