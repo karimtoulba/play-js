@@ -59,4 +59,7 @@ for (let i = 0; i < rapperArray.length; i++) {
 }
 console.log('And if you don\'t know, now you know.');
 
-
+// Functions as Data
+const newFunction = oldFunction; // rename the function
+newFunction(); // call the old function with the new name
+console.log(newFunction.name); // retreive the name of the original old function
