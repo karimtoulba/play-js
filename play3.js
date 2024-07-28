@@ -58,3 +58,4 @@ let numberClusters = [
   [5, 6]
 ];
 console.log(numberClusters[1]);
+const target = numberClusters[2][1];
