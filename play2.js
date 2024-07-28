@@ -70,7 +70,7 @@ switch (athleteFinalPosition) {
   break;
 }
 
-// Functions
+// Functions (Function Declaration)
 function sayThanks(name = 'Stranger') { // In case there is no value when calling the function
   console.log(`Thanks for your purchase, ${name}`);
 }
@@ -87,7 +87,7 @@ function monitorCost(rows, columns) {
 const totalCost = monitorCost(5, 4)
 console.log(totalCost);
 
-// Arrows functions
+// Arrows functions - const var = function (Function Expression)
 const var = function(rows, columns) {} // regular function
 const var = () => {} // function with no parameters
 const var = (rows, columns) => {} // function with two parameters
