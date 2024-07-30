@@ -67,8 +67,11 @@ let myObjects = {
 };
 
 // Calling elements inside Objects
-myObjects.color; // using dot
-myObjects['color']; // using bracket notations
+myObjects.color; // printing value using dot
+myObjects.color = 'yellow'; // changing value using dot
+
+myObjects['color']; // printing value using bracket notations
+myObjects['color'] = 'green'; // changing value using bracket notations
 
 
 
