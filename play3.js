@@ -67,11 +67,11 @@ let myObjects = {
 };
 
 // Calling elements inside Objects
-myObjects.color; // printing value using dot
+myObjects.color; // printing value using dot OR adding if not existing
 myObjects.color = 'yellow'; // changing value using dot
 delete myObjects.color; // deleting value using dot
 
-myObjects['color']; // printing value using bracket notations
+myObjects['color']; // printing value using bracket notations OR adding if not existing
 myObjects['color'] = 'green'; // changing value using bracket notations
 delete myObjects['color']; // deleting value using bracket notations
 
