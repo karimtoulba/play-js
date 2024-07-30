@@ -77,5 +77,15 @@ myObjects['color']; // printing value using bracket notations
 myObjects['color'] = 'green'; // changing value using bracket notations
 delete myObjects['color']; // deleting value using bracket notations
 
+// Methods in Objects
+const alienShip = {
+  retreat() {
+    console.log('We no longer wish to conquer your planet.');
+  }, takeOff() {
+    console.log('Spim... Borp... Glix... Blastoff!');
+  } 
+};
 
+alienShip.retreat();
+alienShip.takeOff();
 
