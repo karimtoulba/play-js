@@ -4,10 +4,26 @@ Author: Karim Toulba
 Date: 30/07/2024
 */
 
-// forEach
+// forEach => returns a new array after applying the same to all items
 let myCities = ['Cairo', 'Alexandria', 'Aswan'];
 myCities.forEach(
   function (item) {
     console.log(`I want to go to ${item}`);
+  }
+);
+
+// map => Returns a new array after modification
+let myNumbers = [1, 2, 3, 4, 5];
+const newNumbers = myNumbers.map(
+  function (number) {
+    return number*10;
+  }
+);
+
+// filter =? Returns a new array with only certain values as requested
+let myCities = ['Cairo', 'Alexandria', 'Aswan'];
+const newCities = myCities.filter(
+  function (city) {
+    return city.length > 7;
   }
 );
