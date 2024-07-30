@@ -30,7 +30,8 @@ console.log('Teaching the world how to code'.length);  // prints 30
 
 // Methods - (.) operator - (toUpperCase) method - () 
 // Method is an action to be applied on an object
-console.log('Hello World!'.toUppercase()); // print HELLO WORLD!
+console.log('Hello World'.toUppercase()); // print HELLO WORLD
+console.log('HELLO WORLD'.toLowercase()); // print hello world
 console.log('My name is Karim'.startswith('H')); // print true as it starts with H
 console.log('   Hello   '.trim()); // print Hello without whitespaces
 
