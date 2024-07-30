@@ -44,12 +44,12 @@ console.log(myList);
 // const arrays, we can change items, but can't re-assign the array
 const shoppingList = ['Wasser', 'Brot', 'Milch', 'Kase'];
 shoppingList[0] = 'apfel'; // replace Wasser with Apfel
-shoppingList = ['Orangensaft']; // re-assign the array
+shoppingList = ['Orangensaft']; // ERROR , CANNOT RE-ASSIGN ARRAY WITH CONST
 
 // let arrays, we can change items, we can re-assign the array
 let shoppingList = ['Wasser', 'Brot', 'Milch', 'Kase'];
 shoppingList[0] = 'apfel'; // replace Wasser with Apfel
-shoppingList = ['Orangensaft']; // ERROR , CANNOT RE-ASSIGN ARRAY WITH CONST
+shoppingList = ['Orangensaft']; // re-assign the array
 
 // Nested Array
 let numberClusters = [
