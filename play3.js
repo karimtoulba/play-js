@@ -66,9 +66,9 @@ let myObjects = {
   'type' : 'turbo'
 };
 
-// Calling inside Objects
-myObjects.color;
-myObjects['color'];
+// Calling elements inside Objects
+myObjects.color; // using dot
+myObjects['color']; // using bracket notations
 
 
 
