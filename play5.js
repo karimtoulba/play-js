@@ -1,5 +1,5 @@
 /* 
-File name: play5.js
+File name: play5.js / High Order Functions
 Author: Karim Toulba
 Date: 30/07/2024
 */
