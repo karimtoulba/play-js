@@ -20,10 +20,21 @@ const newNumbers = myNumbers.map(
   }
 );
 
-// filter =? Returns a new array with only certain values as requested
+// filter => Returns a new array with only certain values as requested
 let myCities = ['Cairo', 'Alexandria', 'Aswan'];
 const newCities = myCities.filter(
   function (city) {
     return city.length > 7;
   }
 );
+
+//findIndex => Return the index of array item as requested
+let myCities = ['Cairo', 'Alexandria', 'Aswan'];
+const foundIndex = myCities.findIndex(
+  function (city) {
+    if (city[0] === 'C') {
+      return city;
+    }
+  }
+);
+
