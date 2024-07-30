@@ -59,3 +59,16 @@ let numberClusters = [
 ];
 console.log(numberClusters[1]);
 const target = numberClusters[2][1];
+
+// Objects
+let myObjects = {
+  'color' : 'red',
+  'type' : 'turbo'
+};
+
+// Calling inside Objects
+myObjects.color;
+myObjects['color'];
+
+
+
