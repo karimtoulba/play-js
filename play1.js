@@ -82,3 +82,9 @@ quarterMe /= 4; // print 288
 
 // Javascript ES6 - ECMA Script v6 - Modern Javascript
 // New Features: let, const, classes, arrow functions, parameters with default functions
+
+
+// Convert String to Number
+let money = "50";
+money = parseInt(money);
+console.log(typeof money); // prints INTEGER as it has been changed.
