@@ -86,8 +86,6 @@ quarterMe /= 4; // print 288
 
 // Convert String to Number
 let money = "50";
-money = parseInt(money); // Change to number
-money = Number(money); // Change to number
-money = +money; // Change to number
+money = Number(money); // Change String to Number
+money = String(money); // Change Number to String
 console.log(typeof money); // prints NUMBER
-console.log
