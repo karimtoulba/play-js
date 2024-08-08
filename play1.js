@@ -34,7 +34,10 @@ console.log('Teaching the world how to code'.length);  // prints 30
 // Method is an action to be applied on an object
 console.log('Hello World'.toUppercase()); // print HELLO WORLD
 console.log('HELLO WORLD'.toLowercase()); // print hello world
+
 console.log('My name is Karim'.startswith('H')); // print true as it starts with H
+console.log('My name is Karim'.includes('K')); // print true as it includes the letter K
+
 console.log('   Hello   '.trim()); // print Hello without whitespaces
 console.log('Karim Toulba'.slice(0, 4)); // Slice letters from the given string value
 
