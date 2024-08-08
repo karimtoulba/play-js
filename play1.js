@@ -21,7 +21,7 @@ console.log('I love' + 'to code'); // I love to code
 // Concatenation Vs Interpolation Vs Typeof
 let myName = 'Karim'; // assign let value
 console.log('My name is' + ' ' + myName); // include a space and print variable (concatenation)
-console.log(`My name is ${myName}.`); // print var value inside the string (interpolation) easy to read [USING BACKTICKS]
+console.log(`My name is ${myName}.`); // print var value inside the string (interpolation) easy to read [USING BACKTICKS] && `` for multiline text.
 console.log(firstName.concat(lastName)); // Using concat Method
 console.log(typeof myName); // print the type of the variable value
 
