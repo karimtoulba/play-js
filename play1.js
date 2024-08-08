@@ -17,13 +17,12 @@ console.log(11 % 3); // modulus remaining
 console.log('Hello' + 'World'); // Hello World
 console.log('I love' + 'to code'); // I love to code
 
-// Fase
-// null - NaN - undefined - '' - 0
-
+// Fase -->> null - NaN - undefined - '' - 0
 // Concatenation Vs Interpolation Vs Typeof
 let myName = 'Karim'; // assign let value
 console.log('My name is' + ' ' + myName); // include a space and print variable (concatenation)
 console.log(`My name is ${myName}.`); // print var value inside the string (interpolation) easy to read [USING BACKTICKS]
+console.log(firstName.concat(lastName)); // Using concat Method
 console.log(typeof myName); // print the type of the variable value
 
 // Properties - (.) operator - (length) property to tell letters length
@@ -37,6 +36,7 @@ console.log('Hello World'.toUppercase()); // print HELLO WORLD
 console.log('HELLO WORLD'.toLowercase()); // print hello world
 console.log('My name is Karim'.startswith('H')); // print true as it starts with H
 console.log('   Hello   '.trim()); // print Hello without whitespaces
+console.log('Karim Toulba'.slice(0, 4)); // Slice letters from the given string value
 
 // Built-in Objects with their own methods
 console.log(Math.random() * 100); // prints a decimal number
