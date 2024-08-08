@@ -17,6 +17,9 @@ console.log(11 % 3); // modulus remaining
 console.log('Hello' + 'World'); // Hello World
 console.log('I love' + 'to code'); // I love to code
 
+// Fase
+// null - NaN - undefined - '' - 0
+
 // Concatenation Vs Interpolation Vs Typeof
 let myName = 'Karim'; // assign let value
 console.log('My name is' + ' ' + myName); // include a space and print variable (concatenation)
