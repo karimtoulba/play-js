@@ -31,6 +31,7 @@ myList.pop(); // Remove LAST
 myList.push('one', 'two'); // Add LAST
 myList.unshift('new'); // Add FIRST
 myList.shift(); // Remove FIRST
+myList.sort(); // Sort Elements Alphabitically.
 
 // Array with Functions
 let myList = ['Wasser', 'Brot', 'Milch', 'Kase'];
