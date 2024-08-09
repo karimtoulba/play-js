@@ -1,7 +1,7 @@
-// Priting the current date in year, month, day format
-const currentDate = new Date();
-console.log(currentDate);
+const date = new Date();
 
-// Printing specific year
-const currentYear = date.getFullYear();
-console.log(`Year: ${currentYear}`);
+const year = date.getFullYear();
+const month = date.getMonth();
+const day = date.getDay();
+
+console.log(`${day} - ${month} - ${year}`);
