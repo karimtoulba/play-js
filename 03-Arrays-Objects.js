@@ -91,6 +91,10 @@ person = {
 
 console.log(person.greetings());
 
+// Changing Object to String using Stringify
+const jsonString = JSON.stringify(person);
+console.log(jsonString);
+
 // Methods in Objects
 const alienShip = {
   retreat() {
