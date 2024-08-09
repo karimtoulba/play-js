@@ -6,3 +6,7 @@ const month = date.getMonth();
 const day = date.getDay();
 
 console.log(`${day} - ${month} - ${year}`);
+
+// Change & Increment Date
+date.setDate(date.getDate() + 1);
+console.log(date); // prints current date +1 incremented.
