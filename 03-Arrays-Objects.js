@@ -80,6 +80,17 @@ myObjects['color']; // printing value using bracket notations
 myObjects['color'] = 'green'; // changing value using bracket notations
 delete myObjects['color']; // deleting value using bracket notations
 
+// Function inside an object
+person = {
+  name: "Karim Toulba",
+  age: 45,
+  experience: ["PHP", "MySQL", "HTML"],
+  greetings: function () { console.log( `My name is ${person.name}, age is ${person.age}, and I'm from ${person.country}` ); },
+  country: "Egypt",
+};
+
+console.log(person.greetings());
+
 // Methods in Objects
 const alienShip = {
   retreat() {
