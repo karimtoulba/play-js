@@ -32,6 +32,8 @@ myList.push('one', 'two'); // Add LAST
 myList.unshift('new'); // Add FIRST
 myList.shift(); // Remove FIRST
 myList.sort(); // Sort Elements Alphabitically.
+myList.reverse(); // Reverse the Elements sorting the other way around.
+myList.join(" - "); // Separate items with - to show Wasser - Brot - Milch - Kase.
 
 // Array with Functions
 let myList = ['Wasser', 'Brot', 'Milch', 'Kase'];
