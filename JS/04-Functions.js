@@ -51,3 +51,14 @@ const newSum = newNumbers.reduce(
 
 console.log(newSum);
 
+// Return Object in a Function
+function myFunc(name, age, country) {
+  return {
+    name: name, 
+    age: age, 
+    country: country,
+  }
+}
+
+console.log(myFunc("Karim", 19, "Egypt"));
+
