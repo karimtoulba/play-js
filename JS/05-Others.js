@@ -11,9 +11,18 @@ console.log(`${day} - ${month} - ${year}`);
 date.setDate(date.getDate() + 1);
 console.log(date); // prints current date +1 incremented.
 
-// setTimeOut and setInterval
-function every() { console.log('Executed every 3 seconds); }
-function after() { console.log('Executed after 3 seconds); }
+// Message to display every 3 seconds
+// stops after 10 seconds
 
-setTimeOut(after, 3000); // prints the message after 3 seconds.
-setInterval(every, 3000); // prints the message every 3 seconds.
+function funEvery() {
+  console.log('MESSAGE to display every 3 seconds');
+}
+
+myInterval = setInterval(funEvery, 3000);
+
+function funStop() {
+  clearInterval(myInterval);
+  console.log('Stopped after 10 seconds');
+}
+
+setTimeout(funStop, 10000);
